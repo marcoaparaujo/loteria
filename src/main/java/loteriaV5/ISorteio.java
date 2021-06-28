@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package loteriaV4;
+package loteriaV5;
 
 import java.util.List;
 

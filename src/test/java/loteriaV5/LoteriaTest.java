@@ -1,6 +1,5 @@
 package loteriaV5;
 
-import loteriaV4.*;
 import java.util.Arrays;
 import java.util.List;
 import org.junit.Test;

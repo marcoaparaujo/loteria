@@ -1,7 +1,6 @@
-package loteriaV4;
+package loteriaV5;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -27,7 +26,7 @@ public class Aposta {
             throw new IllegalArgumentException("A aposta abaixo da mínima");
         }
         if (numerosApostados.size() > APOSTA_MAXIMA) {
-            throw new IllegalArgumentException("A aposta acima da máxima");
+            throw new IllegalArgumentException("A aposta cima da máxima");
         }
 
         List<Integer> numerosValidos = new ArrayList<>();
@@ -41,4 +40,7 @@ public class Aposta {
             numerosValidos.add(apostado);
         }
     }
+
+
+
 }

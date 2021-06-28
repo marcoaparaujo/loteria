@@ -1,6 +1,5 @@
-package loteriaV4;
+package loteriaV5;
 
-import static java.sql.Types.NULL;
 import java.util.List;
 
 public class Loteria {
@@ -12,7 +11,7 @@ public class Loteria {
     public static final double PERC_PREMIO_QUINA = 0.2;
     public static final double PERC_PREMIO_QUADRA = 0.05;
 
-    public double calcularPremio(Aposta aposta, Sorteio sorteio, double premioTotal) {
+    public double calcularPremio(Aposta aposta, ISorteio sorteio, double premioTotal) {
         if (aposta == null) {
             throw new IllegalArgumentException("Aposta inválida");
         }
