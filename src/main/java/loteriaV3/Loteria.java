@@ -40,7 +40,7 @@ public class Loteria {
             throw new IllegalArgumentException("A aposta abaixo da mínima");
         }
         if (numerosApostados.size() > APOSTA_MAXIMA) {
-            throw new IllegalArgumentException("A aposta cima da máxima");
+            throw new IllegalArgumentException("A aposta acima da máxima");
         }
 
         List<Integer> numerosValidos = new ArrayList<>();

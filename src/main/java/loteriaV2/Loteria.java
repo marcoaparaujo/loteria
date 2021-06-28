@@ -6,12 +6,12 @@ import java.util.Random;
 
 public class Loteria {
 
-    public static final int NUM_ACERTOS_SENA = 6;
-    public static final int NUM_ACERTOS_QUINA = 5;
-    public static final int NUM_ACERTOS_QUADRA = 4;
-    public static final double PERC_PREMIO_SENA = 1.0;
-    public static final double PERC_PREMIO_QUINA = 0.2;
-    public static final double PERC_PREMIO_QUADRA = 0.05;
+    private static final int NUM_ACERTOS_SENA = 6;
+    private static final int NUM_ACERTOS_QUINA = 5;
+    private static final int NUM_ACERTOS_QUADRA = 4;
+    private static final double PERC_PREMIO_SENA = 1.0;
+    private static final double PERC_PREMIO_QUINA = 0.2;
+    private static final double PERC_PREMIO_QUADRA = 0.05;
     private static final int APOSTA_MINIMA = 6;
     private static final int APOSTA_MAXIMA = 15;
     private static final int MENOR_NUMERO = 1;
