@@ -23,19 +23,19 @@ public class Aposta {
 
     private void validarAposta(List<Integer> numerosApostados) {
         if (numerosApostados.size() < APOSTA_MINIMA) {
-            throw new IllegalArgumentException("A aposta abaixo da mínima");
+            throw new IllegalArgumentException("Aposta abaixo da mínima");
         }
         if (numerosApostados.size() > APOSTA_MAXIMA) {
-            throw new IllegalArgumentException("A aposta cima da máxima");
+            throw new IllegalArgumentException("Aposta acima da máxima");
         }
 
         List<Integer> numerosValidos = new ArrayList<>();
         for (Integer apostado : numerosApostados) {
             if (apostado < MENOR_NUMERO || apostado > MAIOR_NUMERO) {
-                throw new IllegalArgumentException("Número fora do limite"); 
+                throw new IllegalArgumentException("Número fora do limite");
             }
             if (numerosValidos.contains(apostado)) {
-                throw new IllegalArgumentException("Número duplicado");  
+                throw new IllegalArgumentException("Número duplicado");
             }
             numerosValidos.add(apostado);
         }
