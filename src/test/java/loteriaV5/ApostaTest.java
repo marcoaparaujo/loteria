@@ -64,7 +64,7 @@ public class ApostaTest {
 //
 //            List<Integer> numeros = createMock(ArrayList.class);
 //            expect(numeros.size()).andReturn(6);
-//            expect(numeros.size()).andReturn(10);
+//            expect(numeros.size()).andReturn(20);
 //            replay(numeros);
 //            new Aposta(numeros);
 //
